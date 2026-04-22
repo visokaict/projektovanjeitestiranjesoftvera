@@ -4,4 +4,5 @@
   </Folder>
   <Project Path="ConsoleApp.UnitTest/ConsoleApp.UnitTest.csproj" />
   <Project Path="ConsoleApp/ConsoleApp.csproj" />
+  <Project Path="SimpleWebApi/SimpleWebApi.csproj" Id="93a0b52b-4fe6-4058-96dd-fa78ec0797f1" />
 </Solution>
