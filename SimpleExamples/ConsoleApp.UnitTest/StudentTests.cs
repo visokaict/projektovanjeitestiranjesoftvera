@@ -6,6 +6,18 @@ namespace ConsoleApp.UnitTest
     public class StudentTests
     {
         [Fact]
+        public void Student_Should_Have_FirstName_And_LastName()
+        {
+            // Arrange
+            var student = new Student("John", "Doe");
+            // Act
+            var firstName = student.FirstName;
+            var lastName = student.LastName;
+            // Assert
+            Assert.Equal("John", firstName);
+            Assert.Equal("Doe", lastName);
+        }
+        [Fact]
         public void Student_Should_Have_Valid_Id()
         {
             // Arrange
