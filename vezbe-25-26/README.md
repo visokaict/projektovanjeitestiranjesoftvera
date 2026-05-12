@@ -1,0 +1,1 @@
+Ovaj folder sadrzi vezbe koje su radjene u okviru predavanja za skoslsku 20265/26
